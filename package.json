@@ -1,0 +1,80 @@
+{
+  "name": "spa-template",
+  "version": "0.0.1",
+  "description": "Template for SPA projects",
+  "keywords": [
+    "react",
+    "SPA",
+    "template",
+    "Typescript"
+  ],
+  "homepage": "https://github.com/anpleenko/spa-template#readme",
+  "bugs": {
+    "url": "https://github.com/anpleenko/spa-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anpleenko/spa-template.git"
+  },
+  "license": "MIT",
+  "author": "Alexander Anpleenko <avanpleenko@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "ci": "yarn lint && yarn tsc && yarn test",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --cache",
+    "pre-commit": "lint-staged",
+    "prepare": "is-ci || husky install",
+    "start": "vite",
+    "test": "jest --passWithNoTests",
+    "tsc": "tsc --noEmit"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix --ext .js,.jsx,.ts,.tsx",
+      "prettier --write"
+    ],
+    "*.{png,jpeg,jpg,gif,svg}": [
+      "imagemin-lint-staged"
+    ],
+    "package.json": [
+      "sort-package-json",
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "16.2.3",
+    "@commitlint/config-conventional": "16.2.1",
+    "@types/jest": "27.4.1",
+    "@types/node": "16.11.26",
+    "@types/react": "18.0.1",
+    "@types/react-dom": "18.0.0",
+    "@types/ws": "8.5.3",
+    "@typescript-eslint/eslint-plugin": "5.18.0",
+    "@typescript-eslint/parser": "5.18.0",
+    "@vitejs/plugin-react": "1.3.0",
+    "autoprefixer": "10.4.4",
+    "eslint": "8.13.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "husky": "7.0.4",
+    "imagemin-lint-staged": "0.4.0",
+    "is-ci": "3.0.1",
+    "jest": "27.5.1",
+    "lint-staged": "12.3.7",
+    "postcss": "8.4.12",
+    "prettier": "2.6.2",
+    "sort-package-json": "1.55.0",
+    "tailwindcss": "3.0.23",
+    "ts-jest": "27.1.4",
+    "ts-node": "10.7.0",
+    "typescript": "4.6.3",
+    "vite": "2.9.1",
+    "vite-tsconfig-paths": "3.4.1"
+  }
+}
