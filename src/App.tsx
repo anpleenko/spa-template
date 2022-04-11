@@ -1,4 +1,5 @@
-import React, { ReactElement, useState } from 'react';
+import { ReactElement, useState } from 'react';
+
 import logo from './logo.svg';
 
 function App(): ReactElement {
@@ -14,7 +15,7 @@ function App(): ReactElement {
         <p>
           <button
             className="bg-purple-400 pl-2 pr-2 pt-1 pb-1 rounded text-sm text-purple-100"
-            onClick={() => setCount((count) => count + 1)}
+            onClick={() => setCount((c) => c + 1)}
           >
             count is: {count}
           </button>
