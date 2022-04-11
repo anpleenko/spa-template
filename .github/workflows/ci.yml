@@ -20,8 +20,11 @@ jobs:
           node-version: '16'
           cache: 'yarn'
 
-      - run: yarn
-      - run: yarn ci
+      - run: yarn install
+      - run: yarn lint:editorconfig
+      - run: yarn lint:eslint
+      - run: yarn lint:types
+      - run: yarn test
       - run: yarn build
 
       - name: Set up QEMU
