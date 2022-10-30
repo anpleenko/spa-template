@@ -1,8 +1,7 @@
-import { ReactElement, useState } from 'react';
-
+import { FC, useState } from 'react';
 import logo from './logo.svg';
 
-function App(): ReactElement {
+export const App: FC = () => {
   const [count, setCount] = useState(0);
 
   return (
@@ -53,6 +52,4 @@ function App(): ReactElement {
       </header>
     </div>
   );
-}
-
-export default App;
+};
