@@ -10,7 +10,7 @@ on:
 
 jobs:
   lint-build-deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
 
@@ -21,11 +21,7 @@ jobs:
           cache: 'yarn'
 
       - run: yarn install
-      - run: yarn lint:editorconfig
-      - run: yarn lint:eslint
-      - run: yarn lint:types
-      - run: yarn test
-      - run: yarn build
+      - run: yarn validate
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
