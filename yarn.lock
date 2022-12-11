@@ -9400,7 +9400,7 @@ __metadata:
     ts-node: 10.9.1
     typescript: 4.9.3
     vite: 3.2.5
-    vite-tsconfig-paths: 4.0.0
+    vite-tsconfig-paths: 4.0.2
   languageName: unknown
   linkType: soft
 
@@ -10409,16 +10409,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-tsconfig-paths@npm:4.0.0":
-  version: 4.0.0
-  resolution: "vite-tsconfig-paths@npm:4.0.0"
+"vite-tsconfig-paths@npm:4.0.2":
+  version: 4.0.2
+  resolution: "vite-tsconfig-paths@npm:4.0.2"
   dependencies:
     debug: ^4.1.1
     globrex: ^0.1.2
     tsconfck: ^2.0.1
   peerDependencies:
     vite: ">2.0.0-0"
-  checksum: c268c046d7172631136149494b7edee9bd1d3e3cb00d3399b2f8c51245182db7f89fd87f6e6c0a94398e38b5256265694a64bef1269e255d5aa4cfeacaa27fdd
+  checksum: 30573def2ebd2568025be99e0348d71ee03d2af817d19343b2b764799e5008f374c93511529817a2f4d5b700d42243dbc1e46145f15f098121415784126d2a2e
   languageName: node
   linkType: hard
 
