@@ -725,12 +725,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:17.4.0":
-  version: 17.4.0
-  resolution: "@commitlint/config-conventional@npm:17.4.0"
+"@commitlint/config-conventional@npm:17.4.3":
+  version: 17.4.3
+  resolution: "@commitlint/config-conventional@npm:17.4.3"
   dependencies:
     conventional-changelog-conventionalcommits: ^5.0.0
-  checksum: bc161a330c3cc9168798a58321b86ac05f8c28c5f6b521f4f1c43ede04ff75fbc31881700691685a308a327a05ad66397f9b41463403056fc5183eae18a0e9a2
+  checksum: 29e3fdf21e5d091d50863c386edfa355ea9c6a1201a3a8d08def7d0e3ecd1c317a19ae87186bd3c5a9879e97e77604a4a5c12273cedbbe7e7e2a231184c583cd
   languageName: node
   linkType: hard
 
@@ -9646,7 +9646,7 @@ __metadata:
   resolution: "spa-template@workspace:."
   dependencies:
     "@commitlint/cli": 17.4.1
-    "@commitlint/config-conventional": 17.4.0
+    "@commitlint/config-conventional": 17.4.3
     "@testing-library/jest-dom": 5.16.5
     "@types/jest": 29.2.5
     "@types/node": 18.11.18
