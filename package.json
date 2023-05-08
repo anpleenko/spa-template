@@ -44,7 +44,7 @@
     "@vitejs/plugin-react": "3.0.1",
     "autoprefixer": "10.4.13",
     "concurrently": "7.6.0",
-    "eslint": "8.36.0",
+    "eslint": "8.40.0",
     "eslint-kit": "6.11.0",
     "husky": "8.0.3",
     "imagemin-lint-staged": "0.5.1",
