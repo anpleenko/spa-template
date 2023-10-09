@@ -2037,10 +2037,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.7.0":
-  version: 20.7.0
-  resolution: "@types/node@npm:20.7.0"
-  checksum: 1b2919925c213f4d2039ada7a8354c998e144f7291db8d719ef58ea9924ab636c113690073b0ec3b82ba62907385f7e0f51e9d1583c1a818776daa5156d3a590
+"@types/node@npm:20.8.3":
+  version: 20.8.3
+  resolution: "@types/node@npm:20.8.3"
+  checksum: bfb88b341faeb19f8fd37306a3bf433721b876c6491d10fcb0b13fd26601fa36ee45113dd82b1e1c23e3c957dff5b99f81a16493cefa03abe797e41a2487a4f7
   languageName: node
   linkType: hard
 
@@ -10395,7 +10395,7 @@ __metadata:
     "@commitlint/config-conventional": 17.7.0
     "@testing-library/jest-dom": 5.16.5
     "@types/jest": 29.5.4
-    "@types/node": 20.7.0
+    "@types/node": 20.8.3
     "@types/react": 18.0.24
     "@types/react-dom": 18.2.7
     "@vitejs/plugin-react": 4.0.4
