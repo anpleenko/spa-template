@@ -371,6 +371,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/helper-validator-identifier@npm:^7.22.20":
+  version: 7.22.20
+  resolution: "@babel/helper-validator-identifier@npm:7.22.20"
+  checksum: 136412784d9428266bcdd4d91c32bcf9ff0e8d25534a9d94b044f77fe76bc50f941a90319b05aafd1ec04f7d127cd57a179a3716009ff7f3412ef835ada95bdc
+  languageName: node
+  linkType: hard
+
 "@babel/helper-validator-identifier@npm:^7.22.5":
   version: 7.22.5
   resolution: "@babel/helper-validator-identifier@npm:7.22.5"
@@ -4705,9 +4712,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-kit@npm:10.4.0":
-  version: 10.4.0
-  resolution: "eslint-kit@npm:10.4.0"
+"eslint-kit@npm:10.6.0":
+  version: 10.6.0
+  resolution: "eslint-kit@npm:10.6.0"
   dependencies:
     "@babel/core": ^7.18.6
     "@babel/eslint-parser": ^7.17.0
@@ -4719,7 +4726,7 @@ __metadata:
     eslint-import-resolver-custom-alias: ^1.3.0
     eslint-import-resolver-jsconfig: ^1.1.0
     eslint-import-resolver-typescript: ^3.5.5
-    eslint-plugin-effector: 0.10.5
+    eslint-plugin-effector: 0.11.0
     eslint-plugin-import: 2.27.5
     eslint-plugin-jsx-a11y: 6.7.1
     eslint-plugin-prettier: 5.0.0
@@ -4729,14 +4736,14 @@ __metadata:
     eslint-plugin-solid: 0.12.1
     eslint-plugin-sonarjs: 0.19.0
     eslint-plugin-svelte3: ^4.0.0
-    eslint-plugin-unicorn: 48.0.1
+    eslint-plugin-unicorn: 49.0.0
     eslint-plugin-vue: 9.15.1
     semver: ^7.3.8
     vue-eslint-parser: 9.1.1
   peerDependencies:
     eslint: ^8.41.0
     prettier: ^3.0.0
-  checksum: c3db6b92ff405c532d079324dcb64f685f138474da26de4c8494ba9c5c90c891367c9a9c62060757878cb5dcce8fe7e3bf7de320d7b33a8af8580e43c18524ad
+  checksum: 738d00c537b7b41e1fefa2893a49d95f118982c7bbd5d6b5ec5052093f8c5282a5c2bf094c8417b3d938394049fc1d4ca2fe7ae20b8c5b1918ace7ae0ce379dd
   languageName: node
   linkType: hard
 
@@ -4752,15 +4759,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-effector@npm:0.10.5":
-  version: 0.10.5
-  resolution: "eslint-plugin-effector@npm:0.10.5"
+"eslint-plugin-effector@npm:0.11.0":
+  version: 0.11.0
+  resolution: "eslint-plugin-effector@npm:0.11.0"
   dependencies:
     prettier: ^2.3.2
   peerDependencies:
     effector: "*"
     eslint: 7 || 8
-  checksum: 2cb42e409ef3454fa31781944fabc871288891d54ac0d24f176758b7a3fec3786fc227c5095b6f8de688ec2a329ea68a3d632aa7c4f6c53e16aa9b57c221df1a
+  checksum: a374209055013d920018895cb68411a5344ddca7bc36c9b546aa47b2a600b95d7aaf2614e789860a573d7c0e96d7db2c0b4a74863a1c6e3ca8070404979ad4cf
   languageName: node
   linkType: hard
 
@@ -4912,11 +4919,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:48.0.1":
-  version: 48.0.1
-  resolution: "eslint-plugin-unicorn@npm:48.0.1"
+"eslint-plugin-unicorn@npm:49.0.0":
+  version: 49.0.0
+  resolution: "eslint-plugin-unicorn@npm:49.0.0"
   dependencies:
-    "@babel/helper-validator-identifier": ^7.22.5
+    "@babel/helper-validator-identifier": ^7.22.20
     "@eslint-community/eslint-utils": ^4.4.0
     ci-info: ^3.8.0
     clean-regexp: ^1.0.0
@@ -4924,7 +4931,6 @@ __metadata:
     indent-string: ^4.0.0
     is-builtin-module: ^3.2.1
     jsesc: ^3.0.2
-    lodash: ^4.17.21
     pluralize: ^8.0.0
     read-pkg-up: ^7.0.1
     regexp-tree: ^0.1.27
@@ -4932,8 +4938,8 @@ __metadata:
     semver: ^7.5.4
     strip-indent: ^3.0.0
   peerDependencies:
-    eslint: ">=8.44.0"
-  checksum: e63112cbaa3a1347cbb427160d7b3c6a1f8cc8ef512075a0ab285c64761772356f4eb5f82c9fb1a8cde63d8794f8aa819eda02fa0a7c44bc9955c5113f87be78
+    eslint: ">=8.52.0"
+  checksum: 7580dc96b2edd26d10c1671e575d8ed26df87405f8a535f69f718187aecd64a89402c5dca40ee4a873ed8822496445451b50d9b9a52555b74f053af00fa98c0b
   languageName: node
   linkType: hard
 
@@ -10426,7 +10432,7 @@ __metadata:
     autoprefixer: 10.4.13
     concurrently: 8.2.1
     eslint: 8.52.0
-    eslint-kit: 10.4.0
+    eslint-kit: 10.6.0
     husky: 8.0.3
     imagemin-lint-staged: 0.5.1
     is-ci: 3.0.1
