@@ -8553,6 +8553,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nanoid@npm:^3.3.7":
+  version: 3.3.7
+  resolution: "nanoid@npm:3.3.7"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: d36c427e530713e4ac6567d488b489a36582ef89da1d6d4e3b87eded11eb10d7042a877958c6f104929809b2ab0bafa17652b076cdf84324aa75b30b722204f2
+  languageName: node
+  linkType: hard
+
 "natural-compare-lite@npm:^1.4.0":
   version: 1.4.0
   resolution: "natural-compare-lite@npm:1.4.0"
@@ -9364,14 +9373,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.30":
-  version: 8.4.30
-  resolution: "postcss@npm:8.4.30"
+"postcss@npm:8.4.32":
+  version: 8.4.32
+  resolution: "postcss@npm:8.4.32"
   dependencies:
-    nanoid: ^3.3.6
+    nanoid: ^3.3.7
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: 6c810c10c9bd3e03ca016e0b6b6756261e640aba1a9a7b1200b55502bc34b9165e38f590aef3493afc2f30ab55cdfcd43fd0f8408d69a77318ddbcf2a8ad164b
+  checksum: 220d9d0bf5d65be7ed31006c523bfb11619461d296245c1231831f90150aeb4a31eab9983ac9c5c89759a3ca8b60b3e0d098574964e1691673c3ce5c494305ae
   languageName: node
   linkType: hard
 
@@ -10450,7 +10459,7 @@ __metadata:
     jest: 29.7.0
     jest-environment-jsdom: 29.5.0
     lint-staged: 15.0.2
-    postcss: 8.4.30
+    postcss: 8.4.32
     prettier: 3.1.0
     react: 18.2.0
     react-dom: 18.2.0
