@@ -1038,12 +1038,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:18.4.4":
-  version: 18.4.4
-  resolution: "@commitlint/config-conventional@npm:18.4.4"
+"@commitlint/config-conventional@npm:18.6.2":
+  version: 18.6.2
+  resolution: "@commitlint/config-conventional@npm:18.6.2"
   dependencies:
+    "@commitlint/types": ^18.6.1
     conventional-changelog-conventionalcommits: ^7.0.2
-  checksum: 53238dfac4bef5dcee301cbe1cfc4501054adf9bc1c9bcda47ff0039cf108fd0ffa5e27ff608e62baced9dc976745e7dc2d2a8242704b23251632ed59e303be2
+  checksum: 139453f333d9a36cafff33aca9a52c06e308fc2e86d044f22756054f424b19d5871c559be3df8468df2d8901221e3b9f3b7e3ea23b9b06c8dc35b591d93caa84
   languageName: node
   linkType: hard
 
@@ -1208,6 +1209,15 @@ __metadata:
   dependencies:
     chalk: ^4.1.0
   checksum: bda09adc5f4a7d460120891ad85d2950cb3db17ee9ecf93b820c4782c5a9f8cb235b28fb559a3c4f38fbb5ada43b50bab4c2ee1eb87853be4febbcd8da30fd1f
+  languageName: node
+  linkType: hard
+
+"@commitlint/types@npm:^18.6.1":
+  version: 18.6.1
+  resolution: "@commitlint/types@npm:18.6.1"
+  dependencies:
+    chalk: ^4.1.0
+  checksum: fb37bdefd25e05e353eb568b26a7dd5aff488f1e3fbfc42080bde49ae6834ffde996acac4b7767df650b38e03692889b636b8290465823cd27276662d3b471cf
   languageName: node
   linkType: hard
 
@@ -10871,7 +10881,7 @@ __metadata:
   resolution: "spa-template@workspace:."
   dependencies:
     "@commitlint/cli": 18.4.4
-    "@commitlint/config-conventional": 18.4.4
+    "@commitlint/config-conventional": 18.6.2
     "@testing-library/jest-dom": 6.2.0
     "@types/jest": 29.5.4
     "@types/node": 20.11.5
