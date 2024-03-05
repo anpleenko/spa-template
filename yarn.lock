@@ -2395,14 +2395,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.47":
-  version: 18.2.47
-  resolution: "@types/react@npm:18.2.47"
+"@types/react@npm:18.2.63":
+  version: 18.2.63
+  resolution: "@types/react@npm:18.2.63"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 49608f07f73374e535b21f99fee28e6cfd5801d887c6ed88c41b4dc701dbcee9f0c4d289d9af7b2b23114f76dbf203ffe2c9191bfb4958cf18dae5a25daedbd0
+  checksum: f3d496b9e3c40fe984aa2f22e0f3776a4f0be223f436ad3a2b79fed4b496ba1549999083408c2c975e5c8b029bfc9e8a2924788325e00de205cf70a10ef772d0
   languageName: node
   linkType: hard
 
@@ -10875,7 +10875,7 @@ __metadata:
     "@testing-library/jest-dom": 6.2.0
     "@types/jest": 29.5.4
     "@types/node": 20.11.5
-    "@types/react": 18.2.47
+    "@types/react": 18.2.63
     "@types/react-dom": 18.2.18
     "@vitejs/plugin-react": 4.2.1
     autoprefixer: 10.4.17
