@@ -17,6 +17,6 @@
     "jsx": "react-jsx",
     "baseUrl": "src"
   },
-  "include": ["./src", "./jest.config.ts", "./vite.config.ts"],
+  "include": ["src", "jest.config.ts", "vite.config.ts", ".eslintrc.js"],
   "exclude": ["./dist"]
 }
