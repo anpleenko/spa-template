@@ -17,6 +17,14 @@
     "jsx": "react-jsx",
     "baseUrl": "src"
   },
-  "include": ["src", "jest.config.ts", "vite.config.ts", ".eslintrc.js"],
+  "include": [
+    "src",
+    "jest.config.ts",
+    "vite.config.ts",
+    ".eslintrc.js",
+    "tailwind.config.js",
+    "postcss.config.js",
+    "commitlint.config.js"
+  ],
   "exclude": ["./dist"]
 }
