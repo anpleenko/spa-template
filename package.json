@@ -48,7 +48,6 @@
     "imagemin-lint-staged": "0.5.1",
     "jest": "29.7.0",
     "jest-environment-jsdom": "29.7.0",
-    "lint-staged": "14.0.1",
     "nano-staged": "0.8.0",
     "postcss": "8.4.33",
     "prettier": "3.2.5",
