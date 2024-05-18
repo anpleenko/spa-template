@@ -42,7 +42,7 @@
     "@types/react-dom": "18.3.0",
     "@vitejs/plugin-react": "4.2.1",
     "autoprefixer": "10.4.19",
-    "concurrently": "8.2.1",
+    "concurrently": "8.2.2",
     "eslint": "8.57.0",
     "eslint-kit": "10.30.0",
     "imagemin-lint-staged": "0.5.1",
