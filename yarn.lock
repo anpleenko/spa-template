@@ -11498,7 +11498,7 @@ __metadata:
     react: 18.3.1
     react-dom: 18.3.1
     sort-package-json: 2.10.0
-    tailwindcss: 3.4.3
+    tailwindcss: 3.4.5
     ts-jest: 29.1.3
     ts-node: 10.9.2
     typescript: 5.4.5
@@ -11979,9 +11979,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:3.4.3":
-  version: 3.4.3
-  resolution: "tailwindcss@npm:3.4.3"
+"tailwindcss@npm:3.4.5":
+  version: 3.4.5
+  resolution: "tailwindcss@npm:3.4.5"
   dependencies:
     "@alloc/quick-lru": ^5.2.0
     arg: ^5.0.2
@@ -12008,7 +12008,7 @@ __metadata:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: 7d181a6aafb520c5760d23d0a199444a324dfa36538edd31934daa253ed9a7ac4bde18c4205aaa89c1269bc2ff11781efda04d2e27ded535a9a2547667a344b1
+  checksum: 8b14371f6e53f1cb4816d337efda904dd558868cee4bbd5e9bf8d132ce8083e8cea4642948f3966f93ba79d50da72ffa05c373399207d36908692ec10046728c
   languageName: node
   linkType: hard
 
