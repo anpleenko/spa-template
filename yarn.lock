@@ -2430,12 +2430,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.17.19":
-  version: 20.17.19
-  resolution: "@types/node@npm:20.17.19"
+"@types/node@npm:20.17.28":
+  version: 20.17.28
+  resolution: "@types/node@npm:20.17.28"
   dependencies:
     undici-types: ~6.19.2
-  checksum: 4eb29628e293d47494c1fe8eaacbaf9f1317cc2ada176a74753d0ea6e3ff6cb5f3e97ba3baa1435d9934950f0fec5693272f2805387f2e70c119038ee7608c20
+  checksum: 1e66998f66d781add3e54a423595b14fc89dffb5d2a9e8837c294cc1727a254a7a16bacfdddf4f3fe00274b139122a7d487bfde4c96399dfe3fbfb46b050da82
   languageName: node
   linkType: hard
 
@@ -11470,7 +11470,7 @@ __metadata:
     "@commitlint/config-conventional": 19.7.1
     "@testing-library/jest-dom": 6.6.3
     "@types/jest": 29.5.13
-    "@types/node": 20.17.19
+    "@types/node": 20.17.28
     "@types/react": 18.3.11
     "@types/react-dom": 18.3.0
     "@vitejs/plugin-react": 4.3.0
