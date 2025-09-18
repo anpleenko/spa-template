@@ -3060,12 +3060,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.17.1":
-  version: 22.17.1
-  resolution: "@types/node@npm:22.17.1"
+"@types/node@npm:22.18.6":
+  version: 22.18.6
+  resolution: "@types/node@npm:22.18.6"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10/775d3996693ce2e717267c810669a8122308676487130c91590022ded38a999fef63fd63b4631fdbbceeea9470f0ecf6a2333a3abbc4f917f40b404bbb57e9bc
+  checksum: 10/d816882476fa4f2d2db238139e9d65299414ac54bf81aa85dae850589b480cfe0c1722dc845295d446e2babd6ddfe64b79a8c56d771bf5345ddb1c48950f029e
   languageName: node
   linkType: hard
 
@@ -11241,7 +11241,7 @@ __metadata:
     "@commitlint/config-conventional": "npm:19.8.1"
     "@testing-library/jest-dom": "npm:6.6.4"
     "@types/jest": "npm:29.5.14"
-    "@types/node": "npm:22.17.1"
+    "@types/node": "npm:22.18.6"
     "@types/react": "npm:18.3.11"
     "@types/react-dom": "npm:18.3.0"
     "@vitejs/plugin-react": "npm:4.7.0"
