@@ -5149,10 +5149,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"detect-indent@npm:^7.0.1":
-  version: 7.0.1
-  resolution: "detect-indent@npm:7.0.1"
-  checksum: 10/cbf3f0b1c3c881934ca94428e1179b26ab2a587e0d719031d37a67fb506d49d067de54ff057cb1e772e75975fed5155c01cd4518306fee60988b1486e3fc7768
+"detect-indent@npm:^7.0.2":
+  version: 7.0.2
+  resolution: "detect-indent@npm:7.0.2"
+  checksum: 10/ef215d1b55a14f677ce03e840973b25362b6f8cd3f566bc82831fa1abb2be6a95423729bc573dc2334b1371ad7be18d9ec67e1a9611b71a04cb6d63f0d8e54cc
   languageName: node
   linkType: hard
 
@@ -6896,7 +6896,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"git-hooks-list@npm:^4.0.0":
+"git-hooks-list@npm:^4.1.1":
   version: 4.1.1
   resolution: "git-hooks-list@npm:4.1.1"
   checksum: 10/a56c8cc3dab505bde2c6de032164a9113968ab7f249dfe2c9f2f23be872165f88c91e097994e009d31e56dd1e81c1f714d0972133314d8d3c6bd92a847ba562f
@@ -11227,27 +11227,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sort-object-keys@npm:^2.0.0":
+"sort-object-keys@npm:^2.0.1":
   version: 2.0.1
   resolution: "sort-object-keys@npm:2.0.1"
   checksum: 10/9ba59478af172f0081fd478057aa89e2eb5904f67b01f63002e0444d947f3a285d1a6c95c611097bfca625b675711842829f71b2101b2910db53e34bff7ce67a
   languageName: node
   linkType: hard
 
-"sort-package-json@npm:3.5.0":
-  version: 3.5.0
-  resolution: "sort-package-json@npm:3.5.0"
+"sort-package-json@npm:3.6.0":
+  version: 3.6.0
+  resolution: "sort-package-json@npm:3.6.0"
   dependencies:
-    detect-indent: "npm:^7.0.1"
+    detect-indent: "npm:^7.0.2"
     detect-newline: "npm:^4.0.1"
-    git-hooks-list: "npm:^4.0.0"
+    git-hooks-list: "npm:^4.1.1"
     is-plain-obj: "npm:^4.1.0"
-    semver: "npm:^7.7.1"
-    sort-object-keys: "npm:^2.0.0"
-    tinyglobby: "npm:^0.2.12"
+    semver: "npm:^7.7.3"
+    sort-object-keys: "npm:^2.0.1"
+    tinyglobby: "npm:^0.2.15"
   bin:
     sort-package-json: cli.js
-  checksum: 10/902ac1524c85a9c512170aad6e77e471e7237c91ba3d1e6653dcd0f05a6fd786efce276a79f82283828f2f7ee8ac28b8d17c97e3d5dfd688f629b4696a712d85
+  checksum: 10/1489edd177dc325c1e5fbfa55e9583dfea8caa950363b43f797d99986f00b722644275f4dfd5491265519365d6394a5fec9fe5d360ed83b74317fdc9fc071ba1
   languageName: node
   linkType: hard
 
@@ -11299,7 +11299,7 @@ __metadata:
     prettier: "npm:3.7.4"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
-    sort-package-json: "npm:3.5.0"
+    sort-package-json: "npm:3.6.0"
     tailwindcss: "npm:3.4.18"
     ts-jest: "npm:29.4.6"
     ts-node: "npm:10.9.2"
