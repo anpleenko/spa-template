@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 9
+  version: 10
   cacheKey: 10
 
 "@adobe/css-tools@npm:^4.4.0":
@@ -11289,9 +11289,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sort-package-json@npm:3.6.0":
-  version: 3.6.0
-  resolution: "sort-package-json@npm:3.6.0"
+"sort-package-json@npm:3.7.1":
+  version: 3.7.1
+  resolution: "sort-package-json@npm:3.7.1"
   dependencies:
     detect-indent: "npm:^7.0.2"
     detect-newline: "npm:^4.0.1"
@@ -11302,7 +11302,7 @@ __metadata:
     tinyglobby: "npm:^0.2.15"
   bin:
     sort-package-json: cli.js
-  checksum: 10/1489edd177dc325c1e5fbfa55e9583dfea8caa950363b43f797d99986f00b722644275f4dfd5491265519365d6394a5fec9fe5d360ed83b74317fdc9fc071ba1
+  checksum: 10/f7349c02cbf5dee05ad26e6bea1ef9c63a9980007acf809c8d241431751825a7da2ab290618e965fb57798514607dc199e2dd791fb4a0a5003c349144aa36d16
   languageName: node
   linkType: hard
 
@@ -11354,7 +11354,7 @@ __metadata:
     prettier: "npm:3.8.3"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
-    sort-package-json: "npm:3.6.0"
+    sort-package-json: "npm:3.7.1"
     tailwindcss: "npm:3.4.19"
     ts-jest: "npm:29.4.11"
     ts-node: "npm:10.9.2"
