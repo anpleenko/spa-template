@@ -10234,12 +10234,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.9.4":
-  version: 3.9.4
-  resolution: "prettier@npm:3.9.4"
+"prettier@npm:3.9.8":
+  version: 3.9.8
+  resolution: "prettier@npm:3.9.8"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10/4a0dc4389d442f5aca0beb12778c90b6ceb9831940b01a1df5eba9150b5ce96fa52eda9074a10a370e732adc03e2f645597dfd8b7e3f1e94dee28df01004a0fd
+  checksum: 10/4ac262aaf9a5e221b02cc17447ebe7aa9689be59b85ab9de8152cd7422fb363ed3e09da6df585fa19ab1fc6cffebdc3ea34db1a75c978536aeba3f87bfd06ab3
   languageName: node
   linkType: hard
 
@@ -11351,7 +11351,7 @@ __metadata:
     jest-environment-jsdom: "npm:29.7.0"
     nano-staged: "npm:0.9.0"
     postcss: "npm:8.5.15"
-    prettier: "npm:3.9.4"
+    prettier: "npm:3.9.8"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
     sort-package-json: "npm:3.7.1"
